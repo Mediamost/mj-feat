@@ -161,17 +161,22 @@ else return TRUE; //nincs ellenőrzés, nem pipálta be
   $rule->bundle = 'user';
   $rule->validator = 'field_validation_php_validator';
   $rule->settings = array(
-    'data' => 'if($this->entity->field_regisztralo_szemelye[\'und\'][0][\'value\'] == \'magan\' && $this->value == \'\'){
+    'data' => '//maganszemely eseten nem lehet üres
+if($this->entity->field_regisztralo_szemelye[\'und\'][0][\'value\'] == \'magan\' && $this->value == \'\'){
   $this->set_error();
 }',
     'bypass' => 0,
     'roles' => array(
       2 => 0,
-      3 => 0,
       4 => 0,
       5 => 0,
       6 => 0,
       7 => 0,
+      8 => 0,
+      9 => 0,
+      11 => 0,
+      10 => 0,
+      3 => 0,
     ),
     'errors' => 0,
   );

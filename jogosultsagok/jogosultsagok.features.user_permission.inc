@@ -209,7 +209,9 @@ function jogosultsagok_user_default_permissions() {
   // Exported permission: 'create field_file_frissitve'.
   $permissions['create field_file_frissitve'] = array(
     'name' => 'create field_file_frissitve',
-    'roles' => array(),
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+    ),
     'module' => 'field_permissions',
   );
 
@@ -376,6 +378,7 @@ function jogosultsagok_user_default_permissions() {
   $permissions['create field_tobbszorozes_status'] = array(
     'name' => 'create field_tobbszorozes_status',
     'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
       'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
     ),
     'module' => 'field_permissions',
@@ -524,12 +527,8 @@ function jogosultsagok_user_default_permissions() {
   $permissions['create tobbszorozesi_lista content'] = array(
     'name' => 'create tobbszorozesi_lista content',
     'roles' => array(
-      'DJ' => 'DJ',
       'Rendszergazda' => 'Rendszergazda',
       'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
-      'hatterzene_szolgaltato' => 'hatterzene_szolgaltato',
-      'tesztcsoport' => 'tesztcsoport',
-      'zenegep_uzemelteto' => 'zenegep_uzemelteto',
     ),
     'module' => 'node',
   );
@@ -980,7 +979,9 @@ function jogosultsagok_user_default_permissions() {
   // Exported permission: 'edit field_file_frissitve'.
   $permissions['edit field_file_frissitve'] = array(
     'name' => 'edit field_file_frissitve',
-    'roles' => array(),
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+    ),
     'module' => 'field_permissions',
   );
 
@@ -1140,6 +1141,7 @@ function jogosultsagok_user_default_permissions() {
   $permissions['edit field_tobbszorozes_status'] = array(
     'name' => 'edit field_tobbszorozes_status',
     'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
       'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
     ),
     'module' => 'field_permissions',
@@ -1216,7 +1218,6 @@ function jogosultsagok_user_default_permissions() {
     'name' => 'edit own field_anyja_neve',
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'field_permissions',
   );
@@ -1330,7 +1331,9 @@ function jogosultsagok_user_default_permissions() {
   // Exported permission: 'edit own field_file_frissitve'.
   $permissions['edit own field_file_frissitve'] = array(
     'name' => 'edit own field_file_frissitve',
-    'roles' => array(),
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+    ),
     'module' => 'field_permissions',
   );
 
@@ -1476,7 +1479,6 @@ function jogosultsagok_user_default_permissions() {
     'name' => 'edit own field_szuletesi_ido',
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'field_permissions',
   );
@@ -1486,7 +1488,6 @@ function jogosultsagok_user_default_permissions() {
     'name' => 'edit own field_teljes_nev',
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
-      'authenticated user' => 'authenticated user',
     ),
     'module' => 'field_permissions',
   );
@@ -1495,6 +1496,7 @@ function jogosultsagok_user_default_permissions() {
   $permissions['edit own field_tobbszorozes_status'] = array(
     'name' => 'edit own field_tobbszorozes_status',
     'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
       'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
     ),
     'module' => 'field_permissions',
@@ -1720,6 +1722,8 @@ function jogosultsagok_user_default_permissions() {
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
       'Számlázás' => 'Számlázás',
+      'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
+      'felhasznalo_kezelo' => 'felhasznalo_kezelo',
     ),
     'module' => 'field_permissions',
   );
@@ -1838,7 +1842,9 @@ function jogosultsagok_user_default_permissions() {
   // Exported permission: 'view field_file_frissitve'.
   $permissions['view field_file_frissitve'] = array(
     'name' => 'view field_file_frissitve',
-    'roles' => array(),
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+    ),
     'module' => 'field_permissions',
   );
 
@@ -1994,6 +2000,8 @@ function jogosultsagok_user_default_permissions() {
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
       'Számlázás' => 'Számlázás',
+      'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
+      'felhasznalo_kezelo' => 'felhasznalo_kezelo',
     ),
     'module' => 'field_permissions',
   );
@@ -2004,6 +2012,7 @@ function jogosultsagok_user_default_permissions() {
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
       'Számlázás' => 'Számlázás',
+      'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
       'felhasznalo_kezelo' => 'felhasznalo_kezelo',
     ),
     'module' => 'field_permissions',
@@ -2214,7 +2223,9 @@ function jogosultsagok_user_default_permissions() {
   // Exported permission: 'view own field_file_frissitve'.
   $permissions['view own field_file_frissitve'] = array(
     'name' => 'view own field_file_frissitve',
-    'roles' => array(),
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+    ),
     'module' => 'field_permissions',
   );
 

@@ -103,7 +103,7 @@ A lista elfogadásáról vagy visszautasításáról e-mail-t küldünk.</strong
       'description' => '',
       'has_title' => '1',
       'title_label' => t('Cím'),
-      'help' => t('<h3><a>2013. II. félév</a></h3><strong>FIGYELEM! Kizárólag a megfelelő formátumú és tartalmú listákat tudjuk elfogadni!<br>
+      'help' => t('<h3><a>2014. I. félév</a></h3><strong>FIGYELEM! Kizárólag a megfelelő formátumú és tartalmú listákat tudjuk elfogadni!<br>
 A feltöltést követően az oldalon láthatja a lista elfogadásának aktuális státuszát.<br>
 A lista elfogadásáról vagy visszautasításáról e-mail-t küldünk.</strong>'),
     ),

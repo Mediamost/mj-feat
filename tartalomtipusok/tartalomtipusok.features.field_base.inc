@@ -61,6 +61,8 @@ function tartalomtipusok_field_default_field_bases() {
       'allowed_values' => array(
         '2013. I. félév' => '2013. I. félév',
         '2013. II. félév' => '2013. II. félév',
+        '2014. I. félév' => '2014. I. félév',
+        '2014. II. félév' => '2014. II. félév',
       ),
       'allowed_values_function' => '',
     ),

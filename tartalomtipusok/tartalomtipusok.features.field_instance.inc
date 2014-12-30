@@ -183,7 +183,9 @@ function tartalomtipusok_field_default_field_instances() {
     'bundle' => 'jogositas_alkalmankent_dj',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Felhívjuk figyelmét, hogy az elektronikus számla az  „XSD Informatikai Zrt. – e-szamla.hu”  e-mail címről fog érkezni (nem a MAHASZ-tól). 
+Az e-mail tartalmazza azt a linket, melyen a számla 30 napon keresztül megtekinthető, de az e-szamla.hu oldalon korlátlan ideig elérhető.
+FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, mert a rendszer nem enged azonos e-mail címet rögzíteni több partnernél.',
     'display' => array(
       'default' => array(
         'label' => 'inline',
@@ -1258,7 +1260,9 @@ Az üres sablon és egy minta fájl letöltéséhez kattintson a fájlok nevére
     'bundle' => 'jogositas_alkalmankent_hatterz',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Felhívjuk figyelmét, hogy az elektronikus számla az  „XSD Informatikai Zrt. – e-szamla.hu”  e-mail címről fog érkezni (nem a MAHASZ-tól). 
+Az e-mail tartalmazza azt a linket, melyen a számla 30 napon keresztül megtekinthető, de az e-szamla.hu oldalon korlátlan ideig elérhető.
+FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, mert a rendszer nem enged azonos e-mail címet rögzíteni több partnernél.',
     'display' => array(
       'default' => array(
         'label' => 'inline',
@@ -2404,7 +2408,9 @@ Alapértelmezett értéke a jogosítás létrehozásának éve, de adminisztrát
     'bundle' => 'jogositas_atalanydijas_dj',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Felhívjuk figyelmét, hogy az elektronikus számla az  „XSD Informatikai Zrt. – e-szamla.hu”  e-mail címről fog érkezni (nem a MAHASZ-tól). 
+Az e-mail tartalmazza azt a linket, melyen a számla 30 napon keresztül megtekinthető, de az e-szamla.hu oldalon korlátlan ideig elérhető.
+FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, mert a rendszer nem enged azonos e-mail címet rögzíteni több partnernél.',
     'display' => array(
       'default' => array(
         'label' => 'inline',
@@ -3349,7 +3355,9 @@ Alapértelmezett értéke a jogosítás létrehozásának éve, de adminisztrát
     'bundle' => 'jogositas_atalanydijas_hatterz',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Felhívjuk figyelmét, hogy az elektronikus számla az  „XSD Informatikai Zrt. – e-szamla.hu”  e-mail címről fog érkezni (nem a MAHASZ-tól). 
+Az e-mail tartalmazza azt a linket, melyen a számla 30 napon keresztül megtekinthető, de az e-szamla.hu oldalon korlátlan ideig elérhető.
+FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, mert a rendszer nem enged azonos e-mail címet rögzíteni több partnernél.',
     'display' => array(
       'default' => array(
         'label' => 'inline',
@@ -4402,7 +4410,9 @@ Az üres sablon és egy minta fájl letöltéséhez kattintson a fájlok nevére
     'bundle' => 'jogositas_darabonkent_dj',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Felhívjuk figyelmét, hogy az elektronikus számla az  „XSD Informatikai Zrt. – e-szamla.hu”  e-mail címről fog érkezni (nem a MAHASZ-tól). 
+Az e-mail tartalmazza azt a linket, melyen a számla 30 napon keresztül megtekinthető, de az e-szamla.hu oldalon korlátlan ideig elérhető.
+FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, mert a rendszer nem enged azonos e-mail címet rögzíteni több partnernél.',
     'display' => array(
       'default' => array(
         'label' => 'inline',
@@ -5257,7 +5267,9 @@ Az üres sablon és egy minta fájl letöltéséhez kattintson a fájlok nevére
     'bundle' => 'jogositas_darabonkent_hatterzene',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Felhívjuk figyelmét, hogy az elektronikus számla az  „XSD Informatikai Zrt. – e-szamla.hu”  e-mail címről fog érkezni (nem a MAHASZ-tól). 
+Az e-mail tartalmazza azt a linket, melyen a számla 30 napon keresztül megtekinthető, de az e-szamla.hu oldalon korlátlan ideig elérhető.
+FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, mert a rendszer nem enged azonos e-mail címet rögzíteni több partnernél.',
     'display' => array(
       'default' => array(
         'label' => 'inline',
@@ -6366,7 +6378,9 @@ Az üres sablon és egy minta fájl letöltéséhez kattintson a fájlok nevére
     'bundle' => 'jogositas_zenegep',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => '',
+    'description' => 'Felhívjuk figyelmét, hogy az elektronikus számla az  „XSD Informatikai Zrt. – e-szamla.hu”  e-mail címről fog érkezni (nem a MAHASZ-tól). 
+Az e-mail tartalmazza azt a linket, melyen a számla 30 napon keresztül megtekinthető, de az e-szamla.hu oldalon korlátlan ideig elérhető.
+FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, mert a rendszer nem enged azonos e-mail címet rögzíteni több partnernél.',
     'display' => array(
       'default' => array(
         'label' => 'inline',
@@ -7539,7 +7553,7 @@ Jogdíj befizetésekor, kérem, hogy hivatkozzon a jogdíjfizetési értesítő 
     'bundle' => 'tobbszorozesi_lista',
     'default_value' => array(
       0 => array(
-        'value' => '2013. II. félév',
+        'value' => '2014. I. félév',
       ),
     ),
     'deleted' => 0,
@@ -7718,7 +7732,7 @@ Jogdíj befizetésekor, kérem, hogy hivatkozzon a jogdíjfizetési értesítő 
   $field_instances['node-tobbszorozesi_lista-field_tobbszorozesi_lista'] = array(
     'bundle' => 'tobbszorozesi_lista',
     'deleted' => 0,
-    'description' => '<strong>Feltöltés legkésőbb 2014.01.31-ig.</strong><br/ ><br/ >
+    'description' => '<strong>Feltöltés legkésőbb 2014.07.31-ig.</strong><br/ ><br/ >
 Az üres sablon és egy minta fájl letöltése: <ul>
 <li>Tracklista minta: <a href="/files/public/minta/tracklista_minta.xls">XLS formátum</a>, <a href="/files/public/minta/tracklista_minta.xlsx">XLSX formátum</a></li>
 <li>Üres, kitöltendő sablon: <a href="/files/public/minta/tracklista_sablon.xls">XLS formátum</a>, <a href="/files/public/minta/tracklista_sablon.xlsx">XLSX formátum</a></li>
@@ -7814,7 +7828,7 @@ Sablonok:
   t('2013. december 31. után üzembe helyezett zenegépek esetében az üzembe helyezéskor a felhasználó egyszeri, 49.764 Ft +áfa, bruttó 63.200 Ft összeget köteles megfizetni üzembe helyezési díjként.');
   t('<br/>
 Az üres sablon és egy minta fájl letöltéséhez kattintson a fájlok nevére: <a href="/files/public/minta/tracklista_minta.xlsx">tracklista_minta.xlsx</a>, <a href="/files/public/minta/tracklista_sablon.xlsx">tracklista_sablon.xlsx</a>');
-  t('<strong>Feltöltés legkésőbb 2014.01.31-ig.</strong><br/ ><br/ >
+  t('<strong>Feltöltés legkésőbb 2014.07.31-ig.</strong><br/ ><br/ >
 Az üres sablon és egy minta fájl letöltése: <ul>
 <li>Tracklista minta: <a href="/files/public/minta/tracklista_minta.xls">XLS formátum</a>, <a href="/files/public/minta/tracklista_minta.xlsx">XLSX formátum</a></li>
 <li>Üres, kitöltendő sablon: <a href="/files/public/minta/tracklista_sablon.xls">XLS formátum</a>, <a href="/files/public/minta/tracklista_sablon.xlsx">XLSX formátum</a></li>
@@ -7859,6 +7873,9 @@ Sablonok:
 </ul>');
   t('Ezúton tájékoztatjuk, hogy az átalánydíjas rendszerből többszörözésenkénti jogosításra való áttérés esetén a felhasználó e szándékának írásbeli bejelentésével egyidejűleg ugyancsak írásban közli a közös jogkezelő szervezettel a gépének az átalánydíjra való átjelentkezésekor rögzített tartalma és a bejelentés napján fennálló tartalmi közötti eltérést. <strong>Mindazon hangfelvételek után, melyek a korábbi időpontban nem szerepeltek a zenegép tárolóján a felhasználó megfizeti a többszörözésenként 177 Ft + áfa/bruttó 225 Ft fizetendő jogdíjat.</strong>');
   t('Felhasználási feltételek');
+  t('Felhívjuk figyelmét, hogy az elektronikus számla az  „XSD Informatikai Zrt. – e-szamla.hu”  e-mail címről fog érkezni (nem a MAHASZ-tól). 
+Az e-mail tartalmazza azt a linket, melyen a számla 30 napon keresztül megtekinthető, de az e-szamla.hu oldalon korlátlan ideig elérhető.
+FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, mert a rendszer nem enged azonos e-mail címet rögzíteni több partnernél.');
   t('Feltételek elfogadása');
   t('Fizetendő jogdíj mértéke');
   t('Fizetési értesítő száma');

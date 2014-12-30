@@ -56,6 +56,10 @@ function szabalyok_strongarm() {
     'rules_forms_user_register_form_form_validate' => 38,
     'rules_forms_jogositas_zenegep_node_form_form_submit' => 39,
     'rules_forms_jogositas_zenegep_node_form_form_validate' => 40,
+    'rules_forms_jogositas_atalanydijas_hatterz_node_form_form_submit' => 41,
+    'rules_forms_jogositas_atalanydijas_hatterz_node_form_form_validate' => 42,
+    'rules_forms_jogositas_atalanydijas_dj_node_form_form_submit' => 43,
+    'rules_forms_jogositas_atalanydijas_dj_node_form_form_validate' => 44,
   );
   $export['rules_empty_sets'] = $strongarm;
 
@@ -575,6 +579,424 @@ function szabalyok_strongarm() {
         ),
       ),
       'path' => 'node/5765/edit',
+      'buttons' => FALSE,
+      'validate' => array(),
+      'submit' => array(),
+    ),
+    'jogositas_atalanydijas_hatterz_node_form' => array(
+      'label' => 'Jogositas atalanydijas hatterz node form',
+      'elements' => array(
+        'value:title' => array(
+          'type' => 'value',
+          'label' => 'Cím',
+        ),
+        'fieldset:revision_information' => array(
+          'type' => 'fieldset',
+          'label' => 'Változatinformáció',
+        ),
+        'checkbox:revision_information:revision' => array(
+          'type' => 'checkbox',
+          'label' => 'Új változat készítése',
+        ),
+        'textarea:revision_information:log' => array(
+          'type' => 'textarea',
+          'label' => 'Szerkesztés oka/tartalma',
+        ),
+        'fieldset:author' => array(
+          'type' => 'fieldset',
+          'label' => 'Szerzői információk',
+        ),
+        'textfield:author:name' => array(
+          'type' => 'textfield',
+          'label' => 'Szerző',
+        ),
+        'textfield:author:date' => array(
+          'type' => 'textfield',
+          'label' => 'Beküldés ideje',
+        ),
+        'fieldset:options' => array(
+          'type' => 'fieldset',
+          'label' => 'Közzétételi beállítások',
+        ),
+        'checkbox:options:status' => array(
+          'type' => 'checkbox',
+          'label' => 'Közzétéve',
+        ),
+        'checkbox:options:promote' => array(
+          'type' => 'checkbox',
+          'label' => 'Címlapra helyezve',
+        ),
+        'checkbox:options:sticky' => array(
+          'type' => 'checkbox',
+          'label' => 'Kiemelt, az oldal tetejére',
+        ),
+        'submit:actions:submit' => array(
+          'type' => 'submit',
+          'label' => 'Mentés',
+        ),
+        'submit:actions:preview' => array(
+          'type' => 'submit',
+          'label' => 'Adatok ellenőrzése',
+        ),
+        'select:field_statusz:und' => array(
+          'type' => 'select',
+          'label' => 'Státusz',
+        ),
+        'textfield:field_szamla_nev:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Számlázási név',
+        ),
+        'textfield:field_szamla_helyiseg:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Település',
+        ),
+        'textfield:field_szamla_iranyitoszam:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Irányítószám',
+        ),
+        'textfield:field_szamla_utca:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Utca, házszám',
+        ),
+        'textfield:field_bankszamla:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Bankszámlaszám',
+        ),
+        'radios:field_eszamla:und' => array(
+          'type' => 'radios',
+          'label' => 'Hozzájárulok, hogy részemre elektronikus számlát küldjenek',
+        ),
+        'radio:field_eszamla:und:Igen' => array(
+          'type' => 'radio',
+          'label' => 'Igen',
+        ),
+        'radio:field_eszamla:und:Nem' => array(
+          'type' => 'radio',
+          'label' => 'Nem',
+        ),
+        'textfield:field_posta_nev:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Név',
+        ),
+        'textfield:field_posta_varos:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Település',
+        ),
+        'textfield:field_posta_iranyitoszam:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Irányítószám',
+        ),
+        'textfield:field_posta_utca:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Utca, házszám',
+        ),
+        'textfield:field_jogosult_nev:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Jogosítást kérő neve',
+        ),
+        'textfield:field_helyszin_nev:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Jogosítást kérő vendéglátó-, kereskedelmi- vagy szálláshely neve ',
+        ),
+        'textfield:field_helyseg:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Település',
+        ),
+        'textfield:field_iranyitoszam:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Irányítószám',
+        ),
+        'textfield:field_utca:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Utca, házszám',
+        ),
+        'radios:field_01h_utan_nyitva:und' => array(
+          'type' => 'radios',
+          'label' => '01h után is nyitva tartó vendéglátóhely',
+        ),
+        'radio:field_01h_utan_nyitva:und:Igen' => array(
+          'type' => 'radio',
+          'label' => 'Igen',
+        ),
+        'radio:field_01h_utan_nyitva:und:Nem' => array(
+          'type' => 'radio',
+          'label' => 'Nem',
+        ),
+        'checkboxes:field_feltetelek:und' => array(
+          'type' => 'checkboxes',
+          'label' => 'Felhasználási feltételek',
+        ),
+        'checkbox:field_feltetelek:und:elfogadom' => array(
+          'type' => 'checkbox',
+          'label' => 'Az alábbi felhasználási feltételeket elfogadom',
+        ),
+        'textfield:field_helyszinek_szama:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Jogosítandó helyszínek száma',
+        ),
+        'textfield:field_szamla_sorszam:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Számla sorszám',
+        ),
+        'textfield:field_adoszam:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Adószám',
+        ),
+        'date_combo:field_kartya_kiadva:und:0' => array(
+          'type' => 'date_combo',
+          'label' => 'Kártya kiadás dátuma',
+        ),
+        'checkbox:field_kartya_kiadva:und:0:show_todate' => array(
+          'type' => 'checkbox',
+          'label' => 'Befejező dátum mutatása',
+        ),
+        'textfield:field_kartya_kiadva:und:0:value:date' => array(
+          'type' => 'textfield',
+          'label' => 'Dátum',
+        ),
+        'textarea:field_matrica_szamok:und:0:value' => array(
+          'type' => 'textarea',
+          'label' => 'Matrica számok',
+        ),
+        'textarea:field_belso_megjegyzes:und:0:value' => array(
+          'type' => 'textarea',
+          'label' => 'Megjegyzés',
+        ),
+        'textfield:field_atalanyeve:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Átalány éve',
+        ),
+        'fieldset:comment_settings' => array(
+          'type' => 'fieldset',
+          'label' => 'Hozzászólás-beküldési beállítások',
+        ),
+        'radios:comment_settings:comment' => array(
+          'type' => 'radios',
+          'label' => 'Hozzászólások',
+        ),
+        'radio:comment_settings:comment:2' => array(
+          'type' => 'radio',
+          'label' => 'Nyitott',
+        ),
+        'radio:comment_settings:comment:1' => array(
+          'type' => 'radio',
+          'label' => 'Lezárt',
+        ),
+        'radio:comment_settings:comment:0' => array(
+          'type' => 'radio',
+          'label' => 'Rejtett',
+        ),
+        'fieldset:path' => array(
+          'type' => 'fieldset',
+          'label' => 'Útvonal beállításai',
+        ),
+        'textfield:path:alias' => array(
+          'type' => 'textfield',
+          'label' => 'Webcímálnév',
+        ),
+        'checkbox:path:pathauto' => array(
+          'type' => 'checkbox',
+          'label' => 'Automatikusan hoz létre webcímálneveket',
+        ),
+      ),
+      'path' => 'node/add/jogositas-atalanydijas-hatterz',
+      'buttons' => FALSE,
+      'validate' => array(),
+      'submit' => array(),
+    ),
+    'jogositas_atalanydijas_dj_node_form' => array(
+      'label' => 'Jogositas atalanydijas dj node form',
+      'elements' => array(
+        'value:title' => array(
+          'type' => 'value',
+          'label' => 'Cím',
+        ),
+        'fieldset:revision_information' => array(
+          'type' => 'fieldset',
+          'label' => 'Változatinformáció',
+        ),
+        'checkbox:revision_information:revision' => array(
+          'type' => 'checkbox',
+          'label' => 'Új változat készítése',
+        ),
+        'textarea:revision_information:log' => array(
+          'type' => 'textarea',
+          'label' => 'Szerkesztés oka/tartalma',
+        ),
+        'fieldset:author' => array(
+          'type' => 'fieldset',
+          'label' => 'Szerzői információk',
+        ),
+        'textfield:author:name' => array(
+          'type' => 'textfield',
+          'label' => 'Szerző',
+        ),
+        'textfield:author:date' => array(
+          'type' => 'textfield',
+          'label' => 'Beküldés ideje',
+        ),
+        'fieldset:options' => array(
+          'type' => 'fieldset',
+          'label' => 'Közzétételi beállítások',
+        ),
+        'checkbox:options:status' => array(
+          'type' => 'checkbox',
+          'label' => 'Közzétéve',
+        ),
+        'checkbox:options:promote' => array(
+          'type' => 'checkbox',
+          'label' => 'Címlapra helyezve',
+        ),
+        'checkbox:options:sticky' => array(
+          'type' => 'checkbox',
+          'label' => 'Kiemelt, az oldal tetejére',
+        ),
+        'submit:actions:submit' => array(
+          'type' => 'submit',
+          'label' => 'Mentés',
+        ),
+        'submit:actions:preview' => array(
+          'type' => 'submit',
+          'label' => 'Adatok ellenőrzése',
+        ),
+        'select:field_statusz:und' => array(
+          'type' => 'select',
+          'label' => 'Státusz',
+        ),
+        'textfield:field_szamla_nev:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Számlázási név',
+        ),
+        'textfield:field_szamla_helyiseg:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Település',
+        ),
+        'textfield:field_szamla_iranyitoszam:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Irányítószám',
+        ),
+        'textfield:field_szamla_utca:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Utca, házszám',
+        ),
+        'textfield:field_posta_nev:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Név',
+        ),
+        'textfield:field_posta_varos:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Település',
+        ),
+        'textfield:field_posta_iranyitoszam:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Irányítószám',
+        ),
+        'textfield:field_posta_utca:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Utca, házszám',
+        ),
+        'radios:field_eszamla:und' => array(
+          'type' => 'radios',
+          'label' => 'Hozzájárulok, hogy részemre elektronikus számlát küldjenek',
+        ),
+        'radio:field_eszamla:und:Igen' => array(
+          'type' => 'radio',
+          'label' => 'Igen',
+        ),
+        'radio:field_eszamla:und:Nem' => array(
+          'type' => 'radio',
+          'label' => 'Nem',
+        ),
+        'textfield:field_bankszamla:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Bankszámlaszám',
+        ),
+        'textfield:field_jogosult_nev:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Jogosítást kérő neve',
+        ),
+        'textfield:field_szamla_sorszam:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Számla sorszám',
+        ),
+        'textarea:field_matrica_szamok:und:0:value' => array(
+          'type' => 'textarea',
+          'label' => 'Matrica számok',
+        ),
+        'date_combo:field_kartya_kiadva:und:0' => array(
+          'type' => 'date_combo',
+          'label' => 'Kártya kiadás dátuma',
+        ),
+        'checkbox:field_kartya_kiadva:und:0:show_todate' => array(
+          'type' => 'checkbox',
+          'label' => 'Befejező dátum mutatása',
+        ),
+        'textfield:field_kartya_kiadva:und:0:value:date' => array(
+          'type' => 'textfield',
+          'label' => 'Dátum',
+        ),
+        'checkboxes:field_feltetelek:und' => array(
+          'type' => 'checkboxes',
+          'label' => 'Felhasználási feltételek',
+        ),
+        'checkbox:field_feltetelek:und:elfogadom' => array(
+          'type' => 'checkbox',
+          'label' => 'Az alábbi felhasználási feltételeket elfogadom',
+        ),
+        'textfield:field_adoszam:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Adószám',
+        ),
+        'checkboxes:field_dj_szovetseg:und' => array(
+          'type' => 'checkboxes',
+          'label' => 'DJ szövetség',
+        ),
+        'checkbox:field_dj_szovetseg:und:Tag' => array(
+          'type' => 'checkbox',
+          'label' => 'Rendelkezem érvényes DJ szövetség tagsággal, a jogosításnál szeretném a tagok számára járó kedvezményt igénybe venni.',
+        ),
+        'textarea:field_belso_megjegyzes:und:0:value' => array(
+          'type' => 'textarea',
+          'label' => 'Megjegyzés',
+        ),
+        'textfield:field_atalanyeve:und:0:value' => array(
+          'type' => 'textfield',
+          'label' => 'Átalány éve',
+        ),
+        'fieldset:comment_settings' => array(
+          'type' => 'fieldset',
+          'label' => 'Hozzászólás-beküldési beállítások',
+        ),
+        'radios:comment_settings:comment' => array(
+          'type' => 'radios',
+          'label' => 'Hozzászólások',
+        ),
+        'radio:comment_settings:comment:2' => array(
+          'type' => 'radio',
+          'label' => 'Nyitott',
+        ),
+        'radio:comment_settings:comment:1' => array(
+          'type' => 'radio',
+          'label' => 'Lezárt',
+        ),
+        'radio:comment_settings:comment:0' => array(
+          'type' => 'radio',
+          'label' => 'Rejtett',
+        ),
+        'fieldset:path' => array(
+          'type' => 'fieldset',
+          'label' => 'Útvonal beállításai',
+        ),
+        'textfield:path:alias' => array(
+          'type' => 'textfield',
+          'label' => 'Webcímálnév',
+        ),
+        'checkbox:path:pathauto' => array(
+          'type' => 'checkbox',
+          'label' => 'Automatikusan hoz létre webcímálneveket',
+        ),
+      ),
+      'path' => 'node/add/jogositas-atalanydijas-dj',
       'buttons' => FALSE,
       'validate' => array(),
       'submit' => array(),

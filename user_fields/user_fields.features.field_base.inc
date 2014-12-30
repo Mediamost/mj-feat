@@ -142,7 +142,7 @@ function user_fields_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_cegnev',
     'field_permissions' => array(
-      'type' => 0,
+      'type' => 2,
     ),
     'foreign keys' => array(
       'format' => array(
@@ -252,7 +252,7 @@ function user_fields_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_jogi_csoport',
     'field_permissions' => array(
-      'type' => 0,
+      'type' => 2,
     ),
     'foreign keys' => array(),
     'indexes' => array(
@@ -1043,7 +1043,7 @@ function user_fields_field_default_field_bases() {
     'entity_types' => array(),
     'field_name' => 'field_regisztralo_szemelye',
     'field_permissions' => array(
-      'type' => 0,
+      'type' => 2,
     ),
     'foreign keys' => array(),
     'indexes' => array(

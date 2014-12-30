@@ -602,7 +602,7 @@ function tartalomtipusok_field_group_info() {
   $field_group->mode = 'form';
   $field_group->parent_name = '';
   $field_group->data = array(
-    'label' => 'Időszak: 2013. II. félév',
+    'label' => 'Időszak: 2014. I. félév',
     'weight' => '2',
     'children' => array(
       0 => 'field_adatszolgaltatas_idoszak',
@@ -610,7 +610,7 @@ function tartalomtipusok_field_group_info() {
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
-      'label' => 'Időszak: 2013. II. félév',
+      'label' => 'Időszak: 2014. I. félév',
       'instance_settings' => array(
         'required_fields' => 1,
         'classes' => 'group-idoszak-tip field-group-fieldset ',
