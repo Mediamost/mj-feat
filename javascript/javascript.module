@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the Javascript feature.
- */
-
-include_once 'javascript.features.inc';
