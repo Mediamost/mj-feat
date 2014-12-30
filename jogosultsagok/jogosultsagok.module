@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Jogosultságok (tartalmak, mezők, változatok) feature.
+ */
+
+include_once 'jogosultsagok.features.inc';

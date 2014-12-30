@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Szabályok feature.
+ */
+
+include_once 'szabalyok.features.inc';

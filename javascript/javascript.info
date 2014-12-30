@@ -1,0 +1,17 @@
+name = Javascript
+description = Extra js fájlok
+core = 7.x
+package = Mahasz
+version = 7.x-1.4-alpha1
+project = javascript
+dependencies[] = ctools
+dependencies[] = js_injector
+features[ctools][] = js_injector:js_injector_rules:1
+features[features_api][] = api:2
+features[js_injector_rule][] = Login page
+features[js_injector_rule][] = Sablon szövegek indokláshoz
+features[js_injector_rule][] = jelszó rezet
+features[js_injector_rule][] = jogositas-urlap
+features[js_injector_rule][] = levelkuldes
+features[js_injector_rule][] = regform
+project path = sites/all/modules/mahasz
