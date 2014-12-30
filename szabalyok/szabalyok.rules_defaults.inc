@@ -236,6 +236,27 @@ function szabalyok_default_rules_configuration() {
       ]
     }
   }');
+  $items['rules_atalany_tiltas_ev_vegen'] = entity_import('rules_config', '{ "rules_atalany_tiltas_ev_vegen" : {
+      "LABEL" : "\\u00c1tal\\u00e1nyd\\u00edjas tilt\\u00e1s \\u00e9v v\\u00e9g\\u00e9n",
+      "PLUGIN" : "reaction rule",
+      "REQUIRES" : [ "rules", "rules_forms" ],
+      "ON" : [
+        "rules_forms_jogositas_atalanydijas_dj_node_form_form_built",
+        "rules_forms_jogositas_atalanydijas_hatterz_node_form_form_built"
+      ],
+      "IF" : [
+        { "data_is" : {
+            "data" : [ "site:current-date" ],
+            "op" : "\\u003C",
+            "value" : 1420066810
+          }
+        },
+        { "text_matches" : { "text" : [ "site:current-page:path" ], "match" : "node\\/add" } },
+        { "NOT user_has_role" : { "account" : [ "user" ], "roles" : { "value" : { "9" : "9" } } } }
+      ],
+      "DO" : [ { "redirect" : { "url" : "ideiglenesen-nem-elerheto" } } ]
+    }
+  }');
   $items['rules_elfogad_adatszolg'] = entity_import('rules_config', '{ "rules_elfogad_adatszolg" : {
       "LABEL" : "Elfogad: adatszolg\\u00e1ltat\\u00e1s",
       "PLUGIN" : "action set",
@@ -419,6 +440,23 @@ function szabalyok_default_rules_configuration() {
       "ON" : [ "node_presave" ],
       "IF" : [ { "entity_is_of_type" : { "entity" : [ "node" ], "type" : "node" } } ],
       "DO" : [ { "data_set" : { "data" : [ "node:revision" ], "value" : 1 } } ]
+    }
+  }');
+  $items['rules_nev_cimben_mutatas'] = entity_import('rules_config', '{ "rules_nev_cimben_mutatas" : {
+      "LABEL" : "\\u00e9v c\\u00edmben mutat\\u00e1s",
+      "PLUGIN" : "reaction rule",
+      "TAGS" : [ "title" ],
+      "REQUIRES" : [ "php", "rules", "rules_forms" ],
+      "ON" : [
+        "rules_forms_jogositas_atalanydijas_hatterz_node_form_form_built",
+        "rules_forms_jogositas_atalanydijas_dj_node_form_form_built"
+      ],
+      "IF" : [
+        { "php_eval" : { "code" : "\\/\\/c\\u00edmben: \\u0027\\u00c1tal\\u00e1nyd\\u00edjas\\u0027\\r\\n$title = drupal_get_title();\\r\\nreturn strpos( $title, \\u0027\\u00c1tal\\u00e1nyd\\u00edjas\\u0027) !== false \\u0026\\u0026 arg(1) === \\u0027add\\u0027;" } }
+      ],
+      "DO" : [
+        { "php_eval" : { "code" : "drupal_set_title(drupal_get_title() . \\u0027 \\u0027 . date(\\u0027Y\\u0027), PASS_THROUGH);" } }
+      ]
     }
   }');
   $items['rules_profil_mentve'] = entity_import('rules_config', '{ "rules_profil_mentve" : {

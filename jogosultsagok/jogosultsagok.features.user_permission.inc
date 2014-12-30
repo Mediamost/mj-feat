@@ -146,6 +146,16 @@ function jogosultsagok_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
+  // Exported permission: 'create field_cegnev'.
+  $permissions['create field_cegnev'] = array(
+    'name' => 'create field_cegnev',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+      'anonymous user' => 'anonymous user',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: 'create field_collection_szamlazas'.
   $permissions['create field_collection_szamlazas'] = array(
     'name' => 'create field_collection_szamlazas',
@@ -256,6 +266,16 @@ function jogosultsagok_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
+  // Exported permission: 'create field_jogi_csoport'.
+  $permissions['create field_jogi_csoport'] = array(
+    'name' => 'create field_jogi_csoport',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+      'anonymous user' => 'anonymous user',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: 'create field_jogositas'.
   $permissions['create field_jogositas'] = array(
     'name' => 'create field_jogositas',
@@ -319,6 +339,16 @@ function jogosultsagok_user_default_permissions() {
     'name' => 'create field_raktar_ido',
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: 'create field_regisztralo_szemelye'.
+  $permissions['create field_regisztralo_szemelye'] = array(
+    'name' => 'create field_regisztralo_szemelye',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+      'anonymous user' => 'anonymous user',
     ),
     'module' => 'field_permissions',
   );
@@ -921,6 +951,15 @@ function jogosultsagok_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
+  // Exported permission: 'edit field_cegnev'.
+  $permissions['edit field_cegnev'] = array(
+    'name' => 'edit field_cegnev',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: 'edit field_collection_szamlazas'.
   $permissions['edit field_collection_szamlazas'] = array(
     'name' => 'edit field_collection_szamlazas',
@@ -1024,6 +1063,15 @@ function jogosultsagok_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
+  // Exported permission: 'edit field_jogi_csoport'.
+  $permissions['edit field_jogi_csoport'] = array(
+    'name' => 'edit field_jogi_csoport',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: 'edit field_jogositas'.
   $permissions['edit field_jogositas'] = array(
     'name' => 'edit field_jogositas',
@@ -1083,6 +1131,15 @@ function jogosultsagok_user_default_permissions() {
   // Exported permission: 'edit field_raktar_ido'.
   $permissions['edit field_raktar_ido'] = array(
     'name' => 'edit field_raktar_ido',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: 'edit field_regisztralo_szemelye'.
+  $permissions['edit field_regisztralo_szemelye'] = array(
+    'name' => 'edit field_regisztralo_szemelye',
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
     ),
@@ -1272,6 +1329,15 @@ function jogosultsagok_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
+  // Exported permission: 'edit own field_cegnev'.
+  $permissions['edit own field_cegnev'] = array(
+    'name' => 'edit own field_cegnev',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: 'edit own field_collection_szamlazas'.
   $permissions['edit own field_collection_szamlazas'] = array(
     'name' => 'edit own field_collection_szamlazas',
@@ -1376,6 +1442,15 @@ function jogosultsagok_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
+  // Exported permission: 'edit own field_jogi_csoport'.
+  $permissions['edit own field_jogi_csoport'] = array(
+    'name' => 'edit own field_jogi_csoport',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: 'edit own field_jogositas'.
   $permissions['edit own field_jogositas'] = array(
     'name' => 'edit own field_jogositas',
@@ -1441,6 +1516,15 @@ function jogosultsagok_user_default_permissions() {
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
       'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: 'edit own field_regisztralo_szemelye'.
+  $permissions['edit own field_regisztralo_szemelye'] = array(
+    'name' => 'edit own field_regisztralo_szemelye',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
     ),
     'module' => 'field_permissions',
   );
@@ -1779,6 +1863,18 @@ function jogosultsagok_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
+  // Exported permission: 'view field_cegnev'.
+  $permissions['view field_cegnev'] = array(
+    'name' => 'view field_cegnev',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+      'Számlázás' => 'Számlázás',
+      'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
+      'felhasznalo_kezelo' => 'felhasznalo_kezelo',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: 'view field_collection_szamlazas'.
   $permissions['view field_collection_szamlazas'] = array(
     'name' => 'view field_collection_szamlazas',
@@ -1890,6 +1986,18 @@ function jogosultsagok_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
+  // Exported permission: 'view field_jogi_csoport'.
+  $permissions['view field_jogi_csoport'] = array(
+    'name' => 'view field_jogi_csoport',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+      'Számlázás' => 'Számlázás',
+      'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
+      'felhasznalo_kezelo' => 'felhasznalo_kezelo',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: 'view field_jogositas'.
   $permissions['view field_jogositas'] = array(
     'name' => 'view field_jogositas',
@@ -1959,6 +2067,18 @@ function jogosultsagok_user_default_permissions() {
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
       'Számlázás' => 'Számlázás',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: 'view field_regisztralo_szemelye'.
+  $permissions['view field_regisztralo_szemelye'] = array(
+    'name' => 'view field_regisztralo_szemelye',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+      'Számlázás' => 'Számlázás',
+      'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
+      'felhasznalo_kezelo' => 'felhasznalo_kezelo',
     ),
     'module' => 'field_permissions',
   );
@@ -2164,6 +2284,16 @@ function jogosultsagok_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
+  // Exported permission: 'view own field_cegnev'.
+  $permissions['view own field_cegnev'] = array(
+    'name' => 'view own field_cegnev',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: 'view own field_collection_szamlazas'.
   $permissions['view own field_collection_szamlazas'] = array(
     'name' => 'view own field_collection_szamlazas',
@@ -2271,6 +2401,16 @@ function jogosultsagok_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
+  // Exported permission: 'view own field_jogi_csoport'.
+  $permissions['view own field_jogi_csoport'] = array(
+    'name' => 'view own field_jogi_csoport',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: 'view own field_jogositas'.
   $permissions['view own field_jogositas'] = array(
     'name' => 'view own field_jogositas',
@@ -2338,6 +2478,16 @@ function jogosultsagok_user_default_permissions() {
   // Exported permission: 'view own field_raktar_ido'.
   $permissions['view own field_raktar_ido'] = array(
     'name' => 'view own field_raktar_ido',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: 'view own field_regisztralo_szemelye'.
+  $permissions['view own field_regisztralo_szemelye'] = array(
+    'name' => 'view own field_regisztralo_szemelye',
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
       'authenticated user' => 'authenticated user',

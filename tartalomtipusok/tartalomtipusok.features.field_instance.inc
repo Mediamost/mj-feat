@@ -10,6 +10,192 @@
 function tartalomtipusok_field_default_field_instances() {
   $field_instances = array();
 
+  // Exported field_instance: 'field_collection_item-field_collection_szamlazas-field_idoszak'
+  $field_instances['field_collection_item-field_collection_szamlazas-field_idoszak'] = array(
+    'bundle' => 'field_collection_szamlazas',
+    'default_value' => array(
+      0 => array(
+        'tid' => 11,
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'module' => 'taxonomy',
+        'settings' => array(),
+        'type' => 'taxonomy_term_reference_plain',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_idoszak',
+    'label' => 'Időszak',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 0,
+    ),
+  );
+
+  // Exported field_instance: 'field_collection_item-field_collection_szamlazas-field_jogdijertesito'
+  $field_instances['field_collection_item-field_collection_szamlazas-field_jogdijertesito'] = array(
+    'bundle' => 'field_collection_szamlazas',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'inline',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_plain',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_jogdijertesito',
+    'label' => 'Értesítő száma',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 1,
+    ),
+  );
+
+  // Exported field_instance: 'field_collection_item-field_collection_szamlazas-field_szamla_sorszam'
+  $field_instances['field_collection_item-field_collection_szamlazas-field_szamla_sorszam'] = array(
+    'bundle' => 'field_collection_szamlazas',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'inline',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_plain',
+        'weight' => 2,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_szamla_sorszam',
+    'label' => 'Számla sorszám',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance: 'field_collection_item-field_elozo_uzemeltetok-field_elozo_uzemelteto'
+  $field_instances['field_collection_item-field_elozo_uzemeltetok-field_elozo_uzemelteto'] = array(
+    'bundle' => 'field_elozo_uzemeltetok',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => 'Felhasználó neve akihez a megadott dátumot megelőzően tartozott a zenegép.',
+    'display' => array(
+      'default' => array(
+        'label' => 'inline',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_plain',
+        'weight' => 1,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_elozo_uzemelteto',
+    'label' => 'Előző üzemeltető',
+    'required' => 1,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 2,
+    ),
+  );
+
+  // Exported field_instance: 'field_collection_item-field_elozo_uzemeltetok-field_uzemelteto_datum'
+  $field_instances['field_collection_item-field_elozo_uzemeltetok-field_uzemelteto_datum'] = array(
+    'bundle' => 'field_elozo_uzemeltetok',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'inline',
+        'module' => 'date',
+        'settings' => array(
+          'format_type' => 'short',
+          'fromto' => 'both',
+          'multiple_from' => '',
+          'multiple_number' => '',
+          'multiple_to' => '',
+          'show_repeat_rule' => 'show',
+        ),
+        'type' => 'date_default',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'field_collection_item',
+    'field_name' => 'field_uzemelteto_datum',
+    'label' => 'Dátum',
+    'required' => 1,
+    'settings' => array(
+      'default_value' => 'blank',
+      'default_value2' => 'same',
+      'default_value_code' => '',
+      'default_value_code2' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'date',
+      'settings' => array(
+        'increment' => 30,
+        'input_format' => 'Y-m-d H:i:s',
+        'input_format_custom' => '',
+        'label_position' => 'none',
+        'repeat_collapsed' => 0,
+        'text_parts' => array(),
+        'year_range' => '-3:+3',
+      ),
+      'type' => 'date_popup',
+      'weight' => 1,
+    ),
+  );
+
   // Exported field_instance: 'node-jogositas_alkalmankent_dj-field_adatszolgaltatasok'
   $field_instances['node-jogositas_alkalmankent_dj-field_adatszolgaltatasok'] = array(
     'bundle' => 'jogositas_alkalmankent_dj',
@@ -7861,6 +8047,8 @@ Jogdíj befizetésekor, kérem, hogy hivatkozzon a jogdíjfizetési értesítő 
   t('Beküldött adatszolgáltatások');
   t('DJ szövetség');
   t('DJ szövetség tagság');
+  t('Dátum');
+  t('Előző üzemeltető');
   t('Előző üzemeltetők');
   t('Ez a szöveg kerül be az automata e-mailbe visszautasítás esetén. <br>
 Sablonok: 
@@ -7873,6 +8061,7 @@ Sablonok:
 </ul>');
   t('Ezúton tájékoztatjuk, hogy az átalánydíjas rendszerből többszörözésenkénti jogosításra való áttérés esetén a felhasználó e szándékának írásbeli bejelentésével egyidejűleg ugyancsak írásban közli a közös jogkezelő szervezettel a gépének az átalánydíjra való átjelentkezésekor rögzített tartalma és a bejelentés napján fennálló tartalmi közötti eltérést. <strong>Mindazon hangfelvételek után, melyek a korábbi időpontban nem szerepeltek a zenegép tárolóján a felhasználó megfizeti a többszörözésenként 177 Ft + áfa/bruttó 225 Ft fizetendő jogdíjat.</strong>');
   t('Felhasználási feltételek');
+  t('Felhasználó neve akihez a megadott dátumot megelőzően tartozott a zenegép.');
   t('Felhívjuk figyelmét, hogy az elektronikus számla az  „XSD Informatikai Zrt. – e-szamla.hu”  e-mail címről fog érkezni (nem a MAHASZ-tól). 
 Az e-mail tartalmazza azt a linket, melyen a számla 30 napon keresztül megtekinthető, de az e-szamla.hu oldalon korlátlan ideig elérhető.
 FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, mert a rendszer nem enged azonos e-mail címet rögzíteni több partnernél.');
@@ -7924,6 +8113,7 @@ Az üres sablon és egy minta fájl letöltéséhez kattintson a fájlok nevére
   t('Átalánydíjas jogosítások automatikus nevéhez, és szűréséhez használt mező.
 Alapértelmezett értéke a jogosítás létrehozásának éve, de adminisztrátor átírhatja.
 Általános felhasználó nem látja, nem szerkesztheti.');
+  t('Értesítő száma');
   t('Új gép');
   t('Üzemeltetési hely neve');
 
