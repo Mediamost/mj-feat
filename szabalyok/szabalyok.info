@@ -57,5 +57,5 @@ features[rules_config][] = rules_zg_szamlazas_ures_fix
 features[variable][] = rules_empty_sets
 features[variable][] = rules_forms_event_info
 features[variable][] = rules_path_cleaning_callback
-mtime = 1401172347
+mtime = 1419968190
 project path = sites/all/modules/mahasz

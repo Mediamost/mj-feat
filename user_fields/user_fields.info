@@ -121,5 +121,5 @@ features[user_role][] = felhasznalo_kezelo
 features[user_role][] = hatterzene_szolgaltato
 features[user_role][] = tesztcsoport
 features[user_role][] = zenegep_uzemelteto
-mtime = 1401172374
+mtime = 1419931742
 project path = sites/all/modules/mahasz
