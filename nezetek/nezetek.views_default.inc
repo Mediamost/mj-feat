@@ -13358,6 +13358,8 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['pager']['options']['tags']['previous'] = '‹ előző';
   $handler->display->display_options['pager']['options']['tags']['next'] = 'következő ›';
   $handler->display->display_options['pager']['options']['tags']['last'] = 'utolsó »';
+  $handler->display->display_options['style_plugin'] = 'default';
+  $handler->display->display_options['row_plugin'] = 'fields';
   /* Kapcsolat: Tartalom: Szerző */
   $handler->display->display_options['relationships']['uid']['id'] = 'uid';
   $handler->display->display_options['relationships']['uid']['table'] = 'node';
