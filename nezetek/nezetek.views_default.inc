@@ -8059,7 +8059,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['nothing']['alter']['text'] = 'Szerkesztés';
   $handler->display->display_options['fields']['nothing']['alter']['make_link'] = TRUE;
   $handler->display->display_options['fields']['nothing']['alter']['path'] = 'node/[nid]/edit?destination=jogositas-igenyek/zenegep';
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -8266,7 +8266,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['status']['value'] = 1;
   $handler->display->display_options['filters']['status']['group'] = 1;
   $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value_1']['id'] = 'field_jogdijertesito_value_1';
   $handler->display->display_options['filters']['field_jogdijertesito_value_1']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value_1']['field'] = 'field_jogdijertesito_value';
@@ -11121,7 +11121,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['field_gyszam']['field'] = 'field_gyszam';
   $handler->display->display_options['fields']['field_gyszam']['alter']['alter_text'] = TRUE;
   $handler->display->display_options['fields']['field_gyszam']['alter']['text'] = ' [field_gyszam] ';
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -16615,7 +16615,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   );
   $handler->display->display_options['filters']['field_idoszak_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_idoszak_tid']['vocabulary'] = 'szamla_idoszak';
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value_1']['id'] = 'field_jogdijertesito_value_1';
   $handler->display->display_options['filters']['field_jogdijertesito_value_1']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value_1']['field'] = 'field_jogdijertesito_value';
@@ -16901,7 +16901,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['field_idoszak']['element_wrapper_type'] = 'em';
   $handler->display->display_options['fields']['field_idoszak']['element_default_classes'] = FALSE;
   $handler->display->display_options['fields']['field_idoszak']['type'] = 'taxonomy_term_reference_plain';
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -18361,7 +18361,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -18472,7 +18472,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -18544,7 +18544,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['field'] = 'field_szamla_sorszam_value';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['operator'] = 'not empty';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['group'] = 2;
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value']['id'] = 'field_jogdijertesito_value';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['field'] = 'field_jogdijertesito_value';
@@ -18594,7 +18594,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -18731,7 +18731,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -18795,7 +18795,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['field_idoszak_tid']['group'] = 1;
   $handler->display->display_options['filters']['field_idoszak_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_idoszak_tid']['vocabulary'] = 'szamla_idoszak';
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value']['id'] = 'field_jogdijertesito_value';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['field'] = 'field_jogdijertesito_value';
@@ -18851,7 +18851,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -18986,7 +18986,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -19054,7 +19054,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['field'] = 'field_szamla_sorszam_value';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['operator'] = 'not empty';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['group'] = 2;
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value']['id'] = 'field_jogdijertesito_value';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['field'] = 'field_jogdijertesito_value';
@@ -19104,7 +19104,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -19239,7 +19239,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -19303,7 +19303,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['field_idoszak_tid']['group'] = 1;
   $handler->display->display_options['filters']['field_idoszak_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_idoszak_tid']['vocabulary'] = 'szamla_idoszak';
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value']['id'] = 'field_jogdijertesito_value';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['field'] = 'field_jogdijertesito_value';
@@ -19359,7 +19359,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -19494,7 +19494,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -19558,7 +19558,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['field_idoszak_tid']['group'] = 1;
   $handler->display->display_options['filters']['field_idoszak_tid']['type'] = 'select';
   $handler->display->display_options['filters']['field_idoszak_tid']['vocabulary'] = 'szamla_idoszak';
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value']['id'] = 'field_jogdijertesito_value';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['field'] = 'field_jogdijertesito_value';
@@ -19614,7 +19614,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -19749,7 +19749,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -19821,7 +19821,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['field'] = 'field_szamla_sorszam_value';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['operator'] = 'not empty';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['group'] = 2;
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value']['id'] = 'field_jogdijertesito_value';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['field'] = 'field_jogdijertesito_value';
@@ -19871,7 +19871,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -20008,7 +20008,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -20076,7 +20076,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['field'] = 'field_szamla_sorszam_value';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['operator'] = 'not empty';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['group'] = 2;
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value']['id'] = 'field_jogdijertesito_value';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['field'] = 'field_jogdijertesito_value';
@@ -20195,7 +20195,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -20263,7 +20263,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -20335,7 +20335,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['field'] = 'field_szamla_sorszam_value';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['operator'] = 'not empty';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['group'] = 2;
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value']['id'] = 'field_jogdijertesito_value';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['field'] = 'field_jogdijertesito_value';
@@ -20385,7 +20385,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -20522,7 +20522,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -20594,7 +20594,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['field'] = 'field_szamla_sorszam_value';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['operator'] = 'not empty';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['group'] = 2;
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value']['id'] = 'field_jogdijertesito_value';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['field'] = 'field_jogdijertesito_value';
@@ -20644,7 +20644,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -20781,7 +20781,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';
@@ -20853,7 +20853,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['field'] = 'field_szamla_sorszam_value';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['operator'] = 'not empty';
   $handler->display->display_options['filters']['field_szamla_sorszam_value']['group'] = 2;
-  /* Szűrési feltétel: Mező: Értesítő száma (field_jogdijertesito) */
+  /* Szűrési feltétel: Mező: Fizetési értesítő száma (field_jogdijertesito) */
   $handler->display->display_options['filters']['field_jogdijertesito_value']['id'] = 'field_jogdijertesito_value';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['filters']['field_jogdijertesito_value']['field'] = 'field_jogdijertesito_value';
@@ -20903,7 +20903,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['host_entity_type']['exclude'] = TRUE;
   $handler->display->display_options['fields']['host_entity_type']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['host_entity_type']['hide_alter_empty'] = FALSE;
-  /* Mező: Mező: Értesítő száma */
+  /* Mező: Mező: Fizetési értesítő száma */
   $handler->display->display_options['fields']['field_jogdijertesito']['id'] = 'field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['table'] = 'field_data_field_jogdijertesito';
   $handler->display->display_options['fields']['field_jogdijertesito']['field'] = 'field_jogdijertesito';

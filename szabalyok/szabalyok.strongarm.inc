@@ -365,14 +365,6 @@ function szabalyok_strongarm() {
           'type' => 'submit',
           'label' => 'Adatok ellenőrzése',
         ),
-        'submit:actions:delete' => array(
-          'type' => 'submit',
-          'label' => 'Törlés',
-        ),
-        'submit:actions:preview_changes' => array(
-          'type' => 'submit',
-          'label' => 'Változások megtekintése',
-        ),
         'select:field_jogositas:und' => array(
           'type' => 'select',
           'label' => 'Jogdíj típus 2013',
@@ -431,7 +423,7 @@ function szabalyok_strongarm() {
         ),
         'textfield:field_raktar_ido:und:0:value:date' => array(
           'type' => 'textfield',
-          'label' => '',
+          'label' => 'Dátum',
         ),
         'textfield:field_helyszin_nev:und:0:value' => array(
           'type' => 'textfield',
@@ -523,7 +515,7 @@ function szabalyok_strongarm() {
         ),
         'textfield:field_elozo_uzemeltetok:und:0:field_uzemelteto_datum:und:0:value:date' => array(
           'type' => 'textfield',
-          'label' => '',
+          'label' => 'Dátum',
         ),
         'textfield:field_elozo_uzemeltetok:und:0:field_elozo_uzemelteto:und:0:value' => array(
           'type' => 'textfield',
@@ -541,9 +533,25 @@ function szabalyok_strongarm() {
           'type' => 'submit',
           'label' => 'Újabb elem hozzáadása',
         ),
+        'checkboxes:field_atalany_valtas_feltetelei:und' => array(
+          'type' => 'checkboxes',
+          'label' => 'Az átalánydíjasról többszörözésenkénti jogdíj típusra áttérés feltételeit',
+        ),
+        'checkbox:field_atalany_valtas_feltetelei:und:Elfogadom' => array(
+          'type' => 'checkbox',
+          'label' => 'Elfogadom',
+        ),
         'select:field_jogositas_2014:und' => array(
           'type' => 'select',
           'label' => 'Jogdíj típus 2014',
+        ),
+        'textarea:field_belso_megjegyzes:und:0:value' => array(
+          'type' => 'textarea',
+          'label' => 'Megjegyzés',
+        ),
+        'select:field_jogositas_2015:und' => array(
+          'type' => 'select',
+          'label' => 'Jogdíj típus 2015',
         ),
         'fieldset:comment_settings' => array(
           'type' => 'fieldset',
@@ -582,6 +590,7 @@ function szabalyok_strongarm() {
       'buttons' => FALSE,
       'validate' => array(),
       'submit' => array(),
+      'reset' => FALSE,
     ),
     'jogositas_atalanydijas_hatterz_node_form' => array(
       'label' => 'Jogositas atalanydijas hatterz node form',

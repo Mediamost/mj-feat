@@ -6401,7 +6401,7 @@ Az üres sablon és egy minta fájl letöltéséhez kattintson a fájlok nevére
     'bundle' => 'jogositas_zenegep',
     'default_value' => NULL,
     'deleted' => 0,
-    'description' => 'Ezúton tájékoztatjuk, hogy az átalánydíjas rendszerből többszörözésenkénti jogosításra való áttérés esetén a felhasználó e szándékának írásbeli bejelentésével egyidejűleg ugyancsak írásban közli a közös jogkezelő szervezettel a gépének az átalánydíjra való átjelentkezésekor rögzített tartalma és a bejelentés napján fennálló tartalmi közötti eltérést. <strong>Mindazon hangfelvételek után, melyek a korábbi időpontban nem szerepeltek a zenegép tárolóján a felhasználó megfizeti a többszörözésenként 177 Ft + áfa/bruttó 225 Ft fizetendő jogdíjat.</strong>',
+    'description' => 'Ezúton tájékoztatjuk, hogy az átalánydíjas rendszerből többszörözésenkénti jogosításra való áttérés esetén a felhasználó e szándékának írásbeli bejelentésével egyidejűleg ugyancsak írásban közli a közös jogkezelő szervezettel a gépének az átalánydíjra való átjelentkezésekor rögzített tartalma és a bejelentés napján fennálló tartalmi közötti eltérést. <strong>Mindazon hangfelvételek után, melyek a korábbi időpontban nem szerepeltek a zenegép tárolóján a felhasználó megfizeti a többszörözésenként 180 Ft + áfa/bruttó 229 Ft fizetendő jogdíjat.</strong> ',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -6429,7 +6429,7 @@ Az üres sablon és egy minta fájl letöltéséhez kattintson a fájlok nevére
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 7,
+      'weight' => 8,
     ),
   );
 
@@ -6512,7 +6512,7 @@ Az üres sablon és egy minta fájl letöltéséhez kattintson a fájlok nevére
       'module' => 'field_collection',
       'settings' => array(),
       'type' => 'field_collection_embed',
-      'weight' => 10,
+      'weight' => 11,
     ),
   );
 
@@ -6610,7 +6610,7 @@ FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, 
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 32,
+        'weight' => 33,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -6647,7 +6647,7 @@ FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, 
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 26,
+        'weight' => 27,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -6831,7 +6831,7 @@ FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, 
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 12,
+      'weight' => 13,
     ),
   );
 
@@ -6879,7 +6879,11 @@ FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, 
   // Exported field_instance: 'node-jogositas_zenegep-field_jogositas_2014'
   $field_instances['node-jogositas_zenegep-field_jogositas_2014'] = array(
     'bundle' => 'jogositas_zenegep',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'value' => 'nincs',
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -6900,7 +6904,7 @@ FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, 
     'entity_type' => 'node',
     'field_name' => 'field_jogositas_2014',
     'label' => 'Jogdíj típus 2014',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -6910,6 +6914,43 @@ FIGYELEM! 1 db e-mail címhez csak 1 db felhasználó (vevő név) rendelhető, 
       'settings' => array(),
       'type' => 'options_select',
       'weight' => 6,
+    ),
+  );
+
+  // Exported field_instance: 'node-jogositas_zenegep-field_jogositas_2015'
+  $field_instances['node-jogositas_zenegep-field_jogositas_2015'] = array(
+    'bundle' => 'jogositas_zenegep',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'inline',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 26,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_jogositas_2015',
+    'label' => 'Jogdíj típus 2015',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'options',
+      'settings' => array(),
+      'type' => 'options_select',
+      'weight' => 7,
     ),
   );
 
@@ -6970,7 +7011,7 @@ Tudomásul veszem továbbá, hogy amennyiben a zenegépet nyilvános helyen kív
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 30,
+        'weight' => 31,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -7013,7 +7054,7 @@ Tudomásul veszem továbbá, hogy amennyiben a zenegépet nyilvános helyen kív
           'show_repeat_rule' => 'show',
         ),
         'type' => 'date_default',
-        'weight' => 31,
+        'weight' => 32,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -7062,7 +7103,7 @@ Tudomásul veszem továbbá, hogy amennyiben a zenegépet nyilvános helyen kív
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 29,
+        'weight' => 30,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -7164,7 +7205,7 @@ Tudomásul veszem továbbá, hogy amennyiben a zenegépet nyilvános helyen kív
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 11,
+      'weight' => 12,
     ),
   );
 
@@ -7234,7 +7275,7 @@ Az üres sablon és egy minta fájl letöltése: <ul>
         'module' => 'file',
         'settings' => array(),
         'type' => 'file_default',
-        'weight' => 28,
+        'weight' => 29,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -7261,7 +7302,7 @@ Az üres sablon és egy minta fájl letöltése: <ul>
         'progress_indicator' => 'bar',
       ),
       'type' => 'file_generic',
-      'weight' => 9,
+      'weight' => 10,
     ),
   );
 
@@ -7277,7 +7318,7 @@ Az üres sablon és egy minta fájl letöltése: <ul>
         'module' => 'list',
         'settings' => array(),
         'type' => 'list_default',
-        'weight' => 27,
+        'weight' => 28,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -7298,7 +7339,7 @@ Az üres sablon és egy minta fájl letöltése: <ul>
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 8,
+      'weight' => 9,
     ),
   );
 
@@ -7378,7 +7419,7 @@ Az üres sablon és egy minta fájl letöltése: <ul>
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 13,
+      'weight' => 14,
     ),
   );
 
@@ -8059,7 +8100,7 @@ Sablonok:
   <li>Elégtelen adatmennyiség</li>
 
 </ul>');
-  t('Ezúton tájékoztatjuk, hogy az átalánydíjas rendszerből többszörözésenkénti jogosításra való áttérés esetén a felhasználó e szándékának írásbeli bejelentésével egyidejűleg ugyancsak írásban közli a közös jogkezelő szervezettel a gépének az átalánydíjra való átjelentkezésekor rögzített tartalma és a bejelentés napján fennálló tartalmi közötti eltérést. <strong>Mindazon hangfelvételek után, melyek a korábbi időpontban nem szerepeltek a zenegép tárolóján a felhasználó megfizeti a többszörözésenként 177 Ft + áfa/bruttó 225 Ft fizetendő jogdíjat.</strong>');
+  t('Ezúton tájékoztatjuk, hogy az átalánydíjas rendszerből többszörözésenkénti jogosításra való áttérés esetén a felhasználó e szándékának írásbeli bejelentésével egyidejűleg ugyancsak írásban közli a közös jogkezelő szervezettel a gépének az átalánydíjra való átjelentkezésekor rögzített tartalma és a bejelentés napján fennálló tartalmi közötti eltérést. <strong>Mindazon hangfelvételek után, melyek a korábbi időpontban nem szerepeltek a zenegép tárolóján a felhasználó megfizeti a többszörözésenként 180 Ft + áfa/bruttó 229 Ft fizetendő jogdíjat.</strong> ');
   t('Felhasználási feltételek');
   t('Felhasználó neve akihez a megadott dátumot megelőzően tartozott a zenegép.');
   t('Felhívjuk figyelmét, hogy az elektronikus számla az  „XSD Informatikai Zrt. – e-szamla.hu”  e-mail címről fog érkezni (nem a MAHASZ-tól). 
@@ -8079,6 +8120,7 @@ Az üres sablon és egy minta fájl letöltéséhez kattintson a fájlok nevére
   t('Jogdíj mértéke: hangfelvételenként 177 Ft + áfa (bruttó 225 Ft)');
   t('Jogdíj típus 2013');
   t('Jogdíj típus 2014');
+  t('Jogdíj típus 2015');
   t('Jogdíjfizetési értesítő száma');
   t('Jogosítandó helyszínek száma');
   t('Jogosítani kívánt lemezek száma');

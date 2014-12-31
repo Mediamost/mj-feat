@@ -269,6 +269,7 @@ function tartalomtipusok_field_group_info() {
       8 => 'field_jogosult_nev',
       9 => 'field_statusz',
       10 => 'field_jogositas_2014',
+      11 => 'field_jogositas_2015',
     ),
     'format_type' => 'fieldset',
     'format_settings' => array(
@@ -573,7 +574,7 @@ function tartalomtipusok_field_group_info() {
   $field_group->parent_name = 'group_kotelezo';
   $field_group->data = array(
     'label' => 'Üzemeltetési hely',
-    'weight' => '15',
+    'weight' => '16',
     'children' => array(
       0 => 'field_helyszin_nev',
       1 => 'field_iranyitoszam',
@@ -858,8 +859,9 @@ function tartalomtipusok_field_group_info() {
       10 => 'field_atalany_valtas_feltetelei',
       11 => 'field_jogositas_2014',
       12 => 'title',
-      13 => 'group_hely',
-      14 => 'group_raktar',
+      13 => 'field_jogositas_2015',
+      14 => 'group_hely',
+      15 => 'group_raktar',
     ),
     'format_type' => 'div',
     'format_settings' => array(
@@ -1522,7 +1524,7 @@ function tartalomtipusok_field_group_info() {
   $field_group->parent_name = 'group_kotelezo';
   $field_group->data = array(
     'label' => 'Raktár',
-    'weight' => '14',
+    'weight' => '15',
     'children' => array(
       0 => 'field_raktarban',
       1 => 'field_raktar_ido',

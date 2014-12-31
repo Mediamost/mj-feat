@@ -825,6 +825,37 @@ $entity_field[0][\'value\'] = $netto . \' Ft + áfa, bruttó \' . $brutto . \' F
       'allowed_values' => array(
         'atalany-ev' => 'átalánydíjas (éves)',
         'atalany-negyedev' => 'átalánydíjas (negyedéves)',
+        'nincs' => 'nincs',
+        'tobbszoroz' => 'többszörözésenkénti',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => 0,
+    'type' => 'list_text',
+  );
+
+  // Exported field_base: 'field_jogositas_2015'
+  $field_bases['field_jogositas_2015'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_jogositas_2015',
+    'field_permissions' => array(
+      'type' => 2,
+    ),
+    'foreign keys' => array(),
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'locked' => 0,
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        'atalany-ev' => 'átalánydíjas (éves)',
+        'atalany-negyedev' => 'átalánydíjas (negyedéves)',
         'tobbszoroz' => 'többszörözésenkénti',
       ),
       'allowed_values_function' => '',

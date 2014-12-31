@@ -151,23 +151,51 @@ function tartalomtipusok_default_field_validation_rule() {
   $rule->bundle = 'jogositas_zenegep';
   $rule->validator = 'field_validation_php_validator';
   $rule->settings = array(
-    'data' => '//2014-ben tobbszorozesenkenti + elozo evben atalanyos volt...
-if (
-  isset($this->entity->field_jogositas_2014[\'und\']) 
-  && $this->entity->field_jogositas_2014[\'und\'][0][\'value\'] == \'tobbszoroz\' 
-  && isset($this->entity->field_jogositas[\'und\']) 
-  && (
-    $this->entity->field_jogositas[\'und\'][0][\'value\'] == \'atalany-ev\' 
-    || $this->entity->field_jogositas[\'und\'][0][\'value\'] == \'atalany-negyedev\'
-  )
+    'data' => '$feltetel = false;
+
+watchdog(\'debug\', print_r($this->entity->field_jogositas_2014,1));
+//2015 = tobbszorozesenkenti
+if ( 
+  isset($this->entity->field_jogositas_2015[\'und\']) 
+  && $this->entity->field_jogositas_2015[\'und\'][0][\'value\'] == \'tobbszoroz\'
 ) {
+  
+  //2014 = átalány
+  if ( 
+    isset($this->entity->field_jogositas_2014[\'und\']) && (
+      $this->entity->field_jogositas_2014[\'und\'][0][\'value\'] == \'atalany-ev\' ||
+      $this->entity->field_jogositas_2014[\'und\'][0][\'value\'] == \'atalany-negyedev\'
+    )
+  ) {
+watchdog(\'debug\', \'2014=atalany\');
+
+    $feltetel = true;
+  }
+
+  //2013 = átalány && 2014 = "semmi"
+  if (
+    isset($this->entity->field_jogositas[\'und\'])
+    && (
+      $this->entity->field_jogositas[\'und\'][0][\'value\'] == \'atalany-ev\' ||
+      $this->entity->field_jogositas[\'und\'][0][\'value\'] == \'atalany-negyedev\'
+    )
+    && isset($this->entity->field_jogositas_2014[\'und\'])
+    && (
+      $this->entity->field_jogositas_2014[\'und\'][0][\'value\'] == \'semmi\'
+      || $this->entity->field_jogositas_2014[\'und\'][0][\'value\'] == \'\'
+    )
+  ){
+watchdog(\'debug\', \'2014=semmi\');
+
+    $feltetel = true;
+  }
+}
 
 
 //field_atalany_valtas_feltetelei nincs pipálva
- if ( !isset($this->value) || empty($this->value) || $this->value != \'Elfogadom\' ) {
-    $this->set_error();
-  }
-};',
+if ($feltetel == true && (!isset($this->value) || empty($this->value) || $this->value != \'Elfogadom\' )) {
+  $this->set_error();
+}',
     'bypass' => 1,
     'roles' => array(
       8 => '8',
@@ -899,6 +927,35 @@ else{
   );
   $rule->error_message = '„[field-name]” mezőt ki kell tölteni.';
   $export['zg_jogdijtipus_2014_kotelezo'] = $rule;
+
+  $rule = new stdClass();
+  $rule->disabled = FALSE; /* Edit this to true to make a default rule disabled initially */
+  $rule->api_version = 2;
+  $rule->rulename = 'ZG jogdijtipus 2015 kotelezo';
+  $rule->name = 'zg_jogdijtipus_2015_kotelezo';
+  $rule->field_name = 'field_jogositas_2015';
+  $rule->col = 'value';
+  $rule->entity_type = 'node';
+  $rule->bundle = 'jogositas_zenegep';
+  $rule->validator = 'field_validation_required_validator';
+  $rule->settings = array(
+    'bypass' => 1,
+    'roles' => array(
+      8 => '8',
+      3 => '3',
+      2 => 0,
+      4 => 0,
+      5 => 0,
+      6 => 0,
+      7 => 0,
+      9 => 0,
+      11 => 0,
+      10 => 0,
+    ),
+    'errors' => 1,
+  );
+  $rule->error_message = '„[field-name]” mezőt ki kell tölteni.';
+  $export['zg_jogdijtipus_2015_kotelezo'] = $rule;
 
   $rule = new stdClass();
   $rule->disabled = FALSE; /* Edit this to true to make a default rule disabled initially */

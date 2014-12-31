@@ -290,6 +290,15 @@ function jogosultsagok_user_default_permissions() {
     'name' => 'create field_jogositas_2014',
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: 'create field_jogositas_2015'.
+  $permissions['create field_jogositas_2015'] = array(
+    'name' => 'create field_jogositas_2015',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
       'zenegep_uzemelteto' => 'zenegep_uzemelteto',
     ),
     'module' => 'field_permissions',
@@ -1091,6 +1100,15 @@ function jogosultsagok_user_default_permissions() {
     'module' => 'field_permissions',
   );
 
+  // Exported permission: 'edit field_jogositas_2015'.
+  $permissions['edit field_jogositas_2015'] = array(
+    'name' => 'edit field_jogositas_2015',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+    ),
+    'module' => 'field_permissions',
+  );
+
   // Exported permission: 'edit field_jogosult_nev'.
   $permissions['edit field_jogosult_nev'] = array(
     'name' => 'edit field_jogosult_nev',
@@ -1466,6 +1484,15 @@ function jogosultsagok_user_default_permissions() {
     'name' => 'edit own field_jogositas_2014',
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: 'edit own field_jogositas_2015'.
+  $permissions['edit own field_jogositas_2015'] = array(
+    'name' => 'edit own field_jogositas_2015',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
       'zenegep_uzemelteto' => 'zenegep_uzemelteto',
     ),
     'module' => 'field_permissions',
@@ -1818,6 +1845,7 @@ function jogosultsagok_user_default_permissions() {
     'name' => 'view field_atalany_valtas_feltetelei',
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
+      'Számlázás' => 'Számlázás',
     ),
     'module' => 'field_permissions',
   );
@@ -2013,6 +2041,17 @@ function jogosultsagok_user_default_permissions() {
   // Exported permission: 'view field_jogositas_2014'.
   $permissions['view field_jogositas_2014'] = array(
     'name' => 'view field_jogositas_2014',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+      'Számlázás' => 'Számlázás',
+      'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: 'view field_jogositas_2015'.
+  $permissions['view field_jogositas_2015'] = array(
+    'name' => 'view field_jogositas_2015',
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
       'Számlázás' => 'Számlázás',
@@ -2426,6 +2465,16 @@ function jogosultsagok_user_default_permissions() {
   // Exported permission: 'view own field_jogositas_2014'.
   $permissions['view own field_jogositas_2014'] = array(
     'name' => 'view own field_jogositas_2014',
+    'roles' => array(
+      'Rendszergazda' => 'Rendszergazda',
+      'authenticated user' => 'authenticated user',
+    ),
+    'module' => 'field_permissions',
+  );
+
+  // Exported permission: 'view own field_jogositas_2015'.
+  $permissions['view own field_jogositas_2015'] = array(
+    'name' => 'view own field_jogositas_2015',
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
       'authenticated user' => 'authenticated user',

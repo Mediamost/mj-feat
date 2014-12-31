@@ -1045,10 +1045,10 @@ function szabalyok_default_rules_configuration() {
             "bundle" : { "value" : { "jogositas_zenegep" : "jogositas_zenegep" } }
           }
         },
-        { "entity_has_field" : { "entity" : [ "node" ], "field" : "field_jogositas_2014" } },
-        { "data_is_empty" : { "data" : [ "node-unchanged:field-jogositas-2014" ] } },
+        { "entity_has_field" : { "entity" : [ "node" ], "field" : "field_jogositas_2015" } },
+        { "data_is_empty" : { "data" : [ "node-unchanged:field-jogositas-2015" ] } },
         { "data_is" : {
-            "data" : [ "node:field-jogositas-2014" ],
+            "data" : [ "node:field-jogositas-2015" ],
             "op" : "IN",
             "value" : { "value" : {
                 "atalany-ev" : "atalany-ev",
@@ -1067,8 +1067,8 @@ function szabalyok_default_rules_configuration() {
       "DO" : [
         { "mail" : {
             "to" : "karafiatanita@mahasz.hu, tothgabriella@mahasz.hu",
-            "subject" : "2014-es jogd\\u00edj be\\u00e1ll\\u00edt\\u00e1sra ker\\u00fclt: #[node:nid]",
-            "message" : "A 2014-es jogd\\u00edj t\\u00edpus be\\u00e1ll\\u00edt\\u00e1sra ker\\u00fclt az al\\u00e1bbi zeneg\\u00e9pen:\\r\\n[node:title]\\r\\n[node:url]\\r\\n\\r\\nJogos\\u00edt\\u00e1st k\\u00e9r\\u0151 neve: [node:field-jogosult-nev]\\r\\nGy\\u00e1ri sz\\u00e1m: [node:field-gyszam]\\r\\nJogos\\u00edt\\u00e1si k\\u00e9relem lead\\u00e1s\\u00e1nak id\\u0151pontja: [node:created]\\r\\nJogos\\u00edt\\u00e1si k\\u00e9relem t\\u00edpusa 2014: [node:field-jogositas-2014]\\r\\n\\r\\n--\\r\\nMahasz Jogd\\u00edj",
+            "subject" : "2015-\\u00f6s ZG jogd\\u00edj be\\u00e1ll\\u00edt\\u00e1sra ker\\u00fclt: #[node:nid]",
+            "message" : "A 2015-\\u00f6s jogd\\u00edj t\\u00edpus be\\u00e1ll\\u00edt\\u00e1sra ker\\u00fclt az al\\u00e1bbi zeneg\\u00e9pen:\\r\\n[node:title]\\r\\n[node:url]\\r\\n\\r\\nJogos\\u00edt\\u00e1st k\\u00e9r\\u0151 neve: [node:field-jogosult-nev]\\r\\nGy\\u00e1ri sz\\u00e1m: [node:field-gyszam]\\r\\nJogos\\u00edt\\u00e1si k\\u00e9relem lead\\u00e1s\\u00e1nak id\\u0151pontja: [node:created]\\r\\nJogos\\u00edt\\u00e1si k\\u00e9relem t\\u00edpusa 2015: [node:field-jogositas-2015]\\r\\n\\r\\n--\\r\\nMahasz Jogd\\u00edj",
             "language" : [ "" ]
           }
         }
@@ -1076,7 +1076,7 @@ function szabalyok_default_rules_configuration() {
     }
   }');
   $items['rules_zg_jogdij_tipus_csak_egyszer_mod'] = entity_import('rules_config', '{ "rules_zg_jogdij_tipus_csak_egyszer_mod" : {
-      "LABEL" : "ZG jogdij tipus csak egyszer mod",
+      "LABEL" : "ZG jogdij tipus csak egyszer mod, ha van \\u00e9rt\\u00e9ke, legyen disabled",
       "PLUGIN" : "reaction rule",
       "TAGS" : [ "jogositas", "urlap", "zenegep" ],
       "REQUIRES" : [ "rules_forms", "rules" ],
@@ -1086,7 +1086,7 @@ function szabalyok_default_rules_configuration() {
             { "rules_forms_element_value" : {
                 "form" : [ "form" ],
                 "form_state" : [ "form_state" ],
-                "element" : "select:field_jogositas_2014:und",
+                "element" : "select:field_jogositas_2015:und",
                 "value" : "atalany-ev",
                 "regex" : 0
               }
@@ -1094,7 +1094,7 @@ function szabalyok_default_rules_configuration() {
             { "rules_forms_element_value" : {
                 "form" : [ "form" ],
                 "form_state" : [ "form_state" ],
-                "element" : "select:field_jogositas_2014:und",
+                "element" : "select:field_jogositas_2015:und",
                 "value" : "tobbszoroz",
                 "regex" : 0
               }
@@ -1102,7 +1102,7 @@ function szabalyok_default_rules_configuration() {
             { "rules_forms_element_value" : {
                 "form" : [ "form" ],
                 "form_state" : [ "form_state" ],
-                "element" : "select:field_jogositas_2014:und",
+                "element" : "select:field_jogositas_2015:und",
                 "value" : "atalany-negyedev",
                 "regex" : 0
               }
@@ -1114,7 +1114,7 @@ function szabalyok_default_rules_configuration() {
       "DO" : [
         { "rules_forms_set_disabled" : {
             "form" : [ "form" ],
-            "element" : "select:field_jogositas_2014:und",
+            "element" : "select:field_jogositas_2015:und",
             "disabled" : 1
           }
         }
