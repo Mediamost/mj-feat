@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Nézetek feature.
+ */
+
+include_once 'nezetek.features.inc';
