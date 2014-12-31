@@ -1182,7 +1182,7 @@ return \'5485\';';
   $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['table'] = 'field_data_field_adatszolgaltatas_idoszak';
   $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['field'] = 'field_adatszolgaltatas_idoszak_value';
   $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['value'] = array(
-    '2014. I. félév' => '2014. I. félév',
+    '2014. II. félév' => '2014. II. félév',
   );
   $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['expose']['operator_id'] = 'field_adatszolgaltatas_idoszak_value_op';
@@ -1639,6 +1639,9 @@ return \'5485\';';
   $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['id'] = 'field_adatszolgaltatas_idoszak_value';
   $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['table'] = 'field_data_field_adatszolgaltatas_idoszak';
   $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['field'] = 'field_adatszolgaltatas_idoszak_value';
+  $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['value'] = array(
+    '2014. II. félév' => '2014. II. félév',
+  );
   $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['group'] = 1;
   $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_adatszolgaltatas_idoszak_value']['expose']['operator_id'] = 'field_adatszolgaltatas_idoszak_value_op';

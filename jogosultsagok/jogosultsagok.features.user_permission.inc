@@ -559,6 +559,7 @@ function jogosultsagok_user_default_permissions() {
     'roles' => array(
       'Rendszergazda' => 'Rendszergazda',
       'adatszolgaltatas_kezelo' => 'adatszolgaltatas_kezelo',
+      'authenticated user' => 'authenticated user',
     ),
     'module' => 'node',
   );

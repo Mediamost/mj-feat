@@ -1,7 +1,7 @@
 name = Nézetek
 core = 7.x
 package = Mahasz
-version = 7.x-2.0-alpha2
+version = 7.x-2.0-alpha5
 project = nezetek
 dependencies[] = ctools
 dependencies[] = entityreference
@@ -44,5 +44,5 @@ features[views_view][] = valtozatok
 features[views_view][] = zg_multi
 features[views_view][] = zg_szamlazas_field_colection
 features[views_view][] = zg_tobbszorozesi_entity_reference
-mtime = 1420014319
+mtime = 1420018749
 project path = sites/all/modules/mahasz

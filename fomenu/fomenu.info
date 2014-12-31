@@ -1,7 +1,7 @@
 name = Főmenü
 core = 7.x
 package = Mahasz
-version = 7.x-2.0-alpha1
+version = 7.x-2.0-alpha2
 project = fomenu
 dependencies[] = features
 dependencies[] = menu
@@ -55,5 +55,5 @@ features[menu_links][] = main-menu_zenegp-talnydjas-ves:jogositas-igenyek/zenege
 features[menu_links][] = main-menu_zenegp-tbbszrzsenknti:jogositas-igenyek/zenegep
 features[menu_links][] = main-menu_zenegpek:ellenorzes/zenegep
 features[menu_links][] = main-menu_zg-ismtldsek:jogositas-igenyek/zg-ism
-mtime = 1419977787
+mtime = 1419978642
 project path = sites/all/modules/mahasz

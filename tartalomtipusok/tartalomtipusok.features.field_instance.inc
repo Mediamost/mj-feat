@@ -7739,7 +7739,7 @@ Jogdíj befizetésekor, kérem, hogy hivatkozzon a jogdíjfizetési értesítő 
     'bundle' => 'tobbszorozesi_lista',
     'default_value' => array(
       0 => array(
-        'value' => '2014. I. félév',
+        'value' => '2014. II. félév',
       ),
     ),
     'deleted' => 0,
@@ -7918,7 +7918,7 @@ Jogdíj befizetésekor, kérem, hogy hivatkozzon a jogdíjfizetési értesítő 
   $field_instances['node-tobbszorozesi_lista-field_tobbszorozesi_lista'] = array(
     'bundle' => 'tobbszorozesi_lista',
     'deleted' => 0,
-    'description' => '<strong>Feltöltés legkésőbb 2014.07.31-ig.</strong><br/ ><br/ >
+    'description' => '<strong>Feltöltés legkésőbb 2015.01.31-ig.</strong><br/ ><br/ >
 Az üres sablon és egy minta fájl letöltése: <ul>
 <li>Tracklista minta: <a href="/files/public/minta/tracklista_minta.xls">XLS formátum</a>, <a href="/files/public/minta/tracklista_minta.xlsx">XLSX formátum</a></li>
 <li>Üres, kitöltendő sablon: <a href="/files/public/minta/tracklista_sablon.xls">XLS formátum</a>, <a href="/files/public/minta/tracklista_sablon.xlsx">XLSX formátum</a></li>
@@ -8014,7 +8014,7 @@ Sablonok:
   t('2013. december 31. után üzembe helyezett zenegépek esetében az üzembe helyezéskor a felhasználó egyszeri, 49.764 Ft +áfa, bruttó 63.200 Ft összeget köteles megfizetni üzembe helyezési díjként.');
   t('<br/>
 Az üres sablon és egy minta fájl letöltéséhez kattintson a fájlok nevére: <a href="/files/public/minta/tracklista_minta.xlsx">tracklista_minta.xlsx</a>, <a href="/files/public/minta/tracklista_sablon.xlsx">tracklista_sablon.xlsx</a>');
-  t('<strong>Feltöltés legkésőbb 2014.07.31-ig.</strong><br/ ><br/ >
+  t('<strong>Feltöltés legkésőbb 2015.01.31-ig.</strong><br/ ><br/ >
 Az üres sablon és egy minta fájl letöltése: <ul>
 <li>Tracklista minta: <a href="/files/public/minta/tracklista_minta.xls">XLS formátum</a>, <a href="/files/public/minta/tracklista_minta.xlsx">XLSX formátum</a></li>
 <li>Üres, kitöltendő sablon: <a href="/files/public/minta/tracklista_sablon.xls">XLS formátum</a>, <a href="/files/public/minta/tracklista_sablon.xlsx">XLSX formátum</a></li>
