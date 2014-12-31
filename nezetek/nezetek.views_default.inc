@@ -13391,11 +13391,6 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['fields']['field_helyseg']['table'] = 'field_data_field_helyseg';
   $handler->display->display_options['fields']['field_helyseg']['field'] = 'field_helyseg';
   $handler->display->display_options['fields']['field_helyseg']['type'] = 'text_plain';
-  /* Mező: Sérült / hiányzó kezelő */
-  $handler->display->display_options['fields']['field_egyseg_1']['id'] = 'field_egyseg_1';
-  $handler->display->display_options['fields']['field_egyseg_1']['table'] = 'field_data_field_egyseg';
-  $handler->display->display_options['fields']['field_egyseg_1']['field'] = 'field_egyseg';
-  $handler->display->display_options['fields']['field_egyseg_1']['label'] = 'Vendéglátó egység';
   /* Rendezési szempont: Tartalom: Beküldés dátuma */
   $handler->display->display_options['sorts']['created']['id'] = 'created';
   $handler->display->display_options['sorts']['created']['table'] = 'node';
@@ -13417,7 +13412,7 @@ return $separated; //eg.32 + 30 would represent nodes that you want.';
   $handler->display->display_options['filters']['type']['table'] = 'node';
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
-    'zenegep' => 'zenegep',
+    'jogositas_zenegep' => 'jogositas_zenegep',
   );
   $handler->display->display_options['filters']['type']['group'] = 1;
   $handler->display->display_options['filters']['type']['expose']['operator_id'] = 'type_op';
